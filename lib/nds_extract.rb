@@ -54,7 +54,7 @@ i = 0
 total = 0
 while i < names.length do
   names = names[i]
-  total += dir_gross[name]
+  total += dir_gross[names]
   i += 1
 end
 total
